@@ -41,6 +41,7 @@ defmodule SensorHub.MixProject do
       {:nerves_runtime, "~> 0.11.6", targets: @all_targets},
       {:nerves_pack, "~> 0.6.0", targets: @all_targets},
       {:hdc1080, path: "../hdc1080", targets: @all_targets},
+      {:opt3001, path: "../opt3001", targets: @all_targets},
 
       # Dependencies for specific targets
       # NOTE: It's generally low risk and recommended to follow minor version
